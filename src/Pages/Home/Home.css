@@ -1,0 +1,154 @@
+.container {
+    max-width: 80%;
+    margin: 0 auto;
+    padding: 3rem 0;
+  }
+.ftco-section {
+  padding: 6rem 0;
+  position: relative;
+}
+.text {
+  padding: 1rem 2rem;
+  color: #ffffff; /* White text */
+}
+
+.text h2 {
+  font-size: 3rem;
+  font-weight: 900;
+  line-height: 1.5;
+  color: #2e3192;
+}
+
+.text p.h5 {
+  font-size: 1.2rem;
+  color: #2e3192;
+}
+.text p {
+  font-size: 1rem;
+  color: #555;
+}
+
+.text .btn {
+  font-size: 1rem;
+  padding: 0.5rem 1.5rem;
+}
+
+.work-wrap {
+ 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  border: 5px solid rgba(30, 144, 255, 0.5); /* DodgerBlue with transparency */
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.img {
+  width: 100%;
+  height: 79.5vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.carousel .control-arrow {
+  opacity: 1.8;
+  width: 50px;
+  height: 50px;
+}
+
+.carousel .control-arrow:hover {
+  opacity: 1;
+}
+
+.carousel .control-next.control-arrow:before {
+  border-left: 15px solid #2e3192;
+}
+
+.carousel .control-prev.control-arrow:before {
+  border-right: 15px solid #2e3192;
+}
+
+.carousel .control-dots .dot {
+  background-color: #2e3192;
+  opacity: 0.4;
+}
+
+.carousel .control-dots .dot.selected {
+  opacity: 1;
+}
+.carousel.carousel-slider .control-arrow {
+  top: 50%;
+  color: #fff;
+  font-size: 26px;
+  bottom: 0;
+  margin-top: 0;
+  padding: 5px;
+}
+
+/* Existing CSS styles above */
+
+/* Responsive styles for mobile devices */
+@media screen and (max-width: 767px) {
+    .text {
+      margin: 1rem;
+      text-align: center;
+    }
+  
+    .work-wrap {
+      flex-direction: column;
+    }
+  
+    .img {
+      width: 100%;
+      height: auto;
+      background-size: cover;
+      background-position: center;
+    }
+  
+    h2 {
+      font-size: 1.5rem;
+      margin-bottom: 1rem;
+    }
+  
+    .btn {
+      margin-bottom: 0.5rem;
+    }
+  }
+  
+  @media screen and (min-width: 768px) and (max-width: 991px) {
+    h2 {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+    }
+  
+    .btn {
+      font-size: 0.9rem;
+    }
+  }
+  
+  @media screen and (max-width: 991px) {
+    .img {
+      height: 300px;
+    }
+  }
+  
+
+  @keyframes flash {
+    0% {
+      filter: brightness(100%);
+    }
+    25% {
+      filter: brightness(130%) contrast(110%);
+    }
+    50% {
+      filter: sepia(100%);
+    }
+    75% {
+      filter: brightness(130%) contrast(110%);
+    }
+    100% {
+      filter: brightness(100%);
+    }
+  }

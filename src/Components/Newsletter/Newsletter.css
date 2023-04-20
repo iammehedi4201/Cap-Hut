@@ -1,0 +1,48 @@
+.news-letter-section {
+  width: 100%;
+  min-height: 80vh;
+  background-color: #f7f7f7;
+  padding: 20px;  
+}
+.banner1,
+.banner2 {
+  width: 80%;
+}
+
+.banner-outer {
+  position: relative;
+  min-height:70vh;
+}
+
+.banners {
+  position: absolute;
+}
+
+.banner1 {
+  z-index: 0;
+}
+
+.banner1 {
+  top: 0%;
+  left: 50%;
+  transform: translate(-20%, 60%);
+  z-index: 1;
+}
+
+.img-responsive {
+  display: block;
+  width: 100%;
+  height: 50vh;
+  border: 10px solid whitesmoke;
+}
+
+.newsletter-section {
+  min-height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen  {
+  
+}

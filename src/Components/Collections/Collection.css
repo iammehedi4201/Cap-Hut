@@ -1,0 +1,9 @@
+.card-img-overlay {
+    position: absolute;
+    top:170px;
+    right: 0;
+    bottom: 0;
+    left: 50px;
+    padding: var(--bs-card-img-overlay-padding);
+    border-radius: var(--bs-card-inner-border-radius);
+}
